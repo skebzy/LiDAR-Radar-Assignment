@@ -100,6 +100,7 @@ plt.axis("equal")
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
+plt.savefig("lidar_radar.png", dpi=300) # save the image
 plt.show()
 
 
